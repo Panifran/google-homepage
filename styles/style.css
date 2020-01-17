@@ -1,104 +1,108 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
-display: inline;
-padding-left: 5px;
-padding-right: 5px;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 img {
-display: block;
-margin: auto;
-}
-
-.top-menu {
-    margin-top: 15px;
-    height: 40px;
-    padding-top: 5px;
+  display: block;
+  margin: auto;
 }
 
 .top-bars {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 95%;
-float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-top: 5px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  height: 50px;
 }
-.gmail-images{
-    float: left;
-    padding-right: 15px;
+.top-left {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.border-dots {
-    border-style: dotted;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
+.top-right {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between;
+  justify-content: center; */
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.sign {
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 0px;
+.menu {
+  height: 15px;
+  margin-left: 5px;
+}
+.signin {
+  margin-left: 10px;
 }
 .sign-in {
-    background-color: #4583EB;
-    font-weight: bold;
-    color: white;
-    padding: 5px;
-    
+  background-color: #4583eb;
+  font-weight: bold;
+  color: white;
+  height: 30px; 
 }
 .google-logo {
-    height: 150px;
-    margin-top: 120px;
-    
+  height: 150px;
+  margin-top: 120px;
 }
 .search-form {
-    text-align: center;
+  text-align: center;
 }
-input[type=text] {
-    margin: 0 auto;
-    height: 2.3rem;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 18px;
-    border-color: #DFE1E5;
-    width: 27%;
+input[type="text"] {
+  margin: 0 auto;
+  height: 2.3rem;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 18px;
+  border-color: #dfe1e5;
+  width: 27%;
 }
 .middle-buttons {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 .google-search {
-    padding: 5px;
-    margin-right: 7px; 
+  padding: 12px;
+  margin-right: 7px;
+  border-color: #f4f4f4;
+  background-color: #f1f1f1;
 }
 .lucky {
-    padding: 5px;
+  padding: 12px;
+  border-color: #f4f4f4;
+  background-color: #f1f1f1;
 }
 .footer-bars {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #F2F2F2;
-    height: 30px;
-    padding-top: 12px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 30px;
+  padding-top: 12px;
 }
 .footer-left li {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 .footer-right li {
-    padding-right: 15px;
+  padding-right: 15px;
 }
